@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>videoJS</title>
+	<link href="video-js.css" rel="stylesheet" />
+
+	<!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+	<script src="videojs-ie8.min.js"></script>
+
+	<!-- City -->
+	<link href="city.css" rel="stylesheet">
+	
+	<!-- Fantasy -->
+	<link href="https://unpkg.com/@videojs/themes@1/dist/fantasy/index.css" rel="stylesheet">
+	
+	<!-- Forest -->
+	<link href="https://unpkg.com/@videojs/themes@1/dist/forest/index.css" rel="stylesheet">
+	
+	<!-- Sea -->
+	<link href="https://unpkg.com/@videojs/themes@1/dist/sea/index.css" rel="stylesheet">
+</body>
+</html>
+
+<body>
+  <video
+    id="my-video"
+    class="video-js vjs-theme-forest"
+    controls
+    preload="auto"
+    width="640"
+    height="264"
+    poster="https://picsum.photos/500/300"
+    data-setup="{}"
+  >
+    <source src="file:///C:/Users/admin/Downloads/Video/Bonbon/Era%20Istrefi%20-%20Bonbon%20en%20live%20sur%20NRJ%20-%20YouTube.mp4" type="video/mp4" />
+    <!-- <source src="MY_VIDEO.webm" type="video/webm" /> -->
+    <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a
+      web browser that
+      <a href="https://videojs.com/html5-video-support/" target="_blank"
+        >supports HTML5 video</a
+      >
+    </p>
+  </video>
+
+  <script src="video.js"></script>
+</body>
